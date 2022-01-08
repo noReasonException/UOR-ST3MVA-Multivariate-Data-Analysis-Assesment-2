@@ -25,7 +25,7 @@
 }
 \title{\line(1,0){450}\\ ST3MVA - Multivariate Data Analysis \\ \large{Coursework 2}  \\\line(1,0){450} \\University of Reading, 2021-2022}
 \usepackage{pgfplots}
-\author{Stefanos Stefanou}
+%\author{Stefanos Stefanou}
 \newmdtheoremenv{note}{Note}
 \pgfplotsset{compat=1.17}
 
@@ -63,43 +63,46 @@
 	\pagebreak
 	
 	\section*{Question 1}
-	\begin{lstlisting}[language=R]
-library(dplyr)
-
-data <- read.csv("Spectroscopy.csv")
-data$animal<-recode(data$animal,P="Pig",T="Turkey",C="Cattle")
-attach(data)
-
-wavelengths <- data[,3:17]
-pairs(wavelengths,
-pch=20,
-col=recode(
-data$animal,
-Pig="#bc5090",
-Turkey="#ff6361",
-Cattle="#ffa600"))
-	\end{lstlisting}
+%	\begin{lstlisting}[language=R]
+%library(dplyr)
+%
+%data <- read.csv("Spectroscopy.csv")
+%data$animal<-recode(data$animal,P="Pig",T="Turkey",C="Cattle")
+%attach(data)
+%
+%wavelengths <- data[,3:17]
+%pairs(wavelengths,
+%pch=20,
+%col=recode(
+%data$animal,
+%Pig="#bc5090",
+%Turkey="#ff6361",
+%Cattle="#ffa600"))
+%	\end{lstlisting}
 	%Spectroscopy-pairs
 	
+	Notes : Too many observations for star glyphs,faces etc
+	Pairs plot more appropriate, but may not reveal groups of variables that distinguish groups, i found 4 clear distinctions 
+	with this method, that's sufficient for a first EDA.
+	A simple pairs plot can give us insights about the variables that can be used to create groupings
 	\begin{figure}[H]
 		\begin{subfigure}{\textwidth}
 			\centering
-			\includegraphics[scale=0.3]{res/Spectroscopy-pairs}
+			\includegraphics[scale=0.5]{res/Spectroscopy-pairs}
 		\end{subfigure}
 		
 		\begin{subfigure}{\textwidth}
 			\centering
-			\includegraphics[scale=0.3]{res/Color-Map}
+			\includegraphics[scale=0.1]{res/Color-Map}
 		\end{subfigure}
 	\end{figure}
+	We can clearly see that the following variables can be used to separating species
 	\begin{itemize}
-		\item WL8 Seems promising in separating Pig from Turkey and Cattle
-		\item WL10 Seems promising in separating Turkey from Pig and Cattle
+		\item WL8 consistently separates Pig from Turkey and Cattle, when plotted against every other variable
+		\item WL14 consistently separates Pig from Turkey and Cattle, when plotted against every other variable
+		\item WL10 consistently separates Turkey from Pig and Cattle, when plotted against every other variable
+		\item WL12 consistently separates Cattle from Pig and Turkey, when plotted against every other variable
+		
 	\end{itemize}
 	\pagebreak
-	\begin{thebibliography}{1}	
-		\bibitem{free-speech-us}
-		\textit{En.wikipedia.org. 2021. United States Free Speech Exceptions. [online] Available at: <https://en.wikipedia.org/wiki/United\_States\_free\_speech\_exceptions> [Accessed 10 January 2021].}
-		
-	\end{thebibliography}
 \end{document}

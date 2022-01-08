@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  20 DEC 2021 21:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  8 JAN 2022 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -978,72 +978,47 @@ Overfull \hbox (31.74632pt too wide) in paragraph at lines 62--62
  []| 
  []
 
+
+LaTeX Warning: No \author given.
+
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2020/03/24 1.8d listings language file
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2020/03/24 1.8d listings language file
-)
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 6
-9.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <10> not available
-(Font)              Font shape `OML/cmm/b/it' tried instead on input line 69.
 <res/Spectroscopy-pairs.png, id=12, 907.39pt x 610.28pt>
 File: res/Spectroscopy-pairs.png Graphic file (type png)
 <use res/Spectroscopy-pairs.png>
-Package pdftex.def Info: res/Spectroscopy-pairs.png  used on input line 87.
-(pdftex.def)             Requested size: 272.2191pt x 183.0854pt.
+Package pdftex.def Info: res/Spectroscopy-pairs.png  used on input line 91.
+(pdftex.def)             Requested size: 453.6939pt x 305.13925pt.
+
+Overfull \hbox (35.44022pt too wide) in paragraph at lines 91--92
+ [][] 
+ []
+
 <res/Color-Map.png, id=14, 403.5075pt x 453.695pt>
 File: res/Color-Map.png Graphic file (type png)
 <use res/Color-Map.png>
-Package pdftex.def Info: res/Color-Map.png  used on input line 92.
-(pdftex.def)             Requested size: 121.05318pt x 136.10954pt.
- [2 <./res/Spectroscopy-pairs.png> <./res/Color-Map.png>]
-Underfull \hbox (badness 2173) in paragraph at lines 101--102
-[]\OT1/cmr/m/it/10 En.wikipedia.org. 2021. United States Free Speech Ex-cep-tio
-ns. [on-line] Avail-able at:
- []
-
-
-Underfull \hbox (badness 1436) in paragraph at lines 101--102
-\OT1/cmr/m/it/10 <https://en.wikipedia.org/wiki/United[]States[]free[]speech[]e
-xceptions> [Ac-cessed 10 Jan-uary
- []
-
-[3] (./main.aux) ) 
+Package pdftex.def Info: res/Color-Map.png  used on input line 96.
+(pdftex.def)             Requested size: 40.3531pt x 45.37215pt.
+[2 <./res/Spectroscopy-pairs.png> <./res/Color-Map.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 30314 strings out of 478994
- 733671 string characters out of 5858184
- 1393544 words of memory out of 5000000
- 47279 multiletter control sequences out of 15000+600000
- 409885 words of font info for 49 fonts, out of 8000000 for 9000
+ 29298 strings out of 478994
+ 723230 string characters out of 5858184
+ 1203956 words of memory out of 5000000
+ 46280 multiletter control sequences out of 15000+600000
+ 408533 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,9n,103p,721b,2004s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/
-cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmib10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx100
-0.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.
-pfb>
-Output written on main.pdf (3 pages, 278839 bytes).
+ 102i,10n,103p,721b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/lo
+cal/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/loca
+l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (2 pages, 233441 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
